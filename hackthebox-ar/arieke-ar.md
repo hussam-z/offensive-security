@@ -191,7 +191,7 @@ ssh root@10.10.10.65 -i bastion_key -p 1022
 
 > /common/network
 
-لان الاسم شدني كتير و قي جواه ملف باسم **make\_nets.sh** 
+لان الاسم شدني كتير و في جواه ملف باسم **make\_nets.sh** 
 
 ![make\_nets.sh](../.gitbook/assets/image%20%2836%29.png)
 
