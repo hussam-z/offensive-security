@@ -1,8 +1,8 @@
 ---
-description: حل Arieke بالعربي
+description: حل Ariekei بالعربي
 ---
 
-# Arieke - بالعربي
+# Ariekei - بالعربي
 
 ![Let&apos;s show some fucking INSANE bb](../.gitbook/assets/image%20%284%29.png)
 
