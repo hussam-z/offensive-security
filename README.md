@@ -2,16 +2,17 @@
 
 
 
-* Mohammad Hussam Alzeyyat aka mhz-cyber - 17 Y/O
+* Mohammad Hussam Alzeyyat aka mhz-cyber - 18 Y/O
 * Cyber Security Addict \| BBH \| Penetration Tester/Red teamer \| Network Security Researcher \| CTF Creator/Player
 
 
 
-Where i'm working right now ?
+Where I'm working right now ?
 
-* Network Technical at Hatnet ISP
-* Penetration Tester at CyOps Team
-* Network Security Researcher - when I'm Free, Just more 0Days :D -
+* Python Developer @ BittarWools Company
+* Freelance Penetration Tester
+* Security Researcher - when I'm Free, Just more 0Days :D -
+* Formal Network Technical at Hatnet ISP
 
 
 
