@@ -7,7 +7,7 @@
 
 
 
-Where I'm working right now ?
+Where I'm working right now?
 
 * Python Developer @ BittarWools Company
 * Freelance Penetration Tester
@@ -25,8 +25,8 @@ My Projects :
 
 My education background :
 
-* Studying IT at ABCHorizon
-* a lot of courses from eLearnSecuritym Offensive Security, Pentesteracademy and so on.
+* High School - ABCHorizon
+* a lot of courses from eLearnSecuritym Offensive Security, Pentesteracademy, and so on.
 
 CVEs :
 
