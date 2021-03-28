@@ -5,7 +5,7 @@
 
 
 
-### Where I'm working right now?
+### Work history:
 
 * Python Developer @ BittarWools Company
 * Freelance Penetration Tester
