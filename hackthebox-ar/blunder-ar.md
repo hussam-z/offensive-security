@@ -4,11 +4,16 @@ description: حل Blunder Box
 
 # Blunder - بالعربي
 
+### Nmap Scan
+
+  
 1- تبدأ الاول بعمل Scan على الماشين ب nmap عشان نشوف ال Open Ports الموجودة و ال services/الخدمات و شو منهم فيه ثغرة/vulnerable فتستغله و طبعا بدون عمل استطلاع/recon او enumeration ما ممكن تبدأ اي عملية Pentesting او Hacking
 
 ![](../.gitbook/assets/image.png)
 
 في 21 و مقفول هاد لل ftp و في 80 الي هو http و هاد غالبا بعني انو web server
+
+### Web Scan
 
 1.2 - تبدأ ت scan على الويب سيرفر نفسه - لحد الان انت بمرحلة ال scan بس-  
 انا عادة بستخدم اكتر من اداة متل dirsearch,dirb,wfuzz,gobuster و السبب ان احيانا اداة ممكن تعطيك نتيجة غير التانية  و طبعا لائحة الكلمات/wordlist الي بتم استخدامها بتفرق معك كتير, هون انا استخدمت dirsearch و wfuzz و وصلت للبدي ياه  
@@ -35,6 +40,8 @@ wfuzz -u http://10.10.10.191/FUZZ.txt -w ~/Documents/Wordlist/directory-list-2.3
   
 2- كمان في cms حصلها تحديث, هي ممكن تكون مهمة ك ملاحظة لبعدين
 {% endhint %}
+
+### Start Exploit
 
 2- تبدأ ت exploit الي معك الان
 
@@ -72,6 +79,8 @@ python3 bruteforce.py
 
 ![](../.gitbook/assets/image%20%2831%29.png)
 
+### Exploit the CMS and get access on the server
+
 الان تبحث عن استغلال/exploit و هو رح يكون كمان لنفس ال cms الي هي bludit   
 انا لقيت هاد الاستغلال \([اضغط هنا](%20https://github.com/rapid7/metasploit-framework/pull/12542)\)
 
@@ -82,6 +91,10 @@ python3 bruteforce.py
 
 حاليا عندك access او ولوج للسيرفر , هون بتبدأ عملية enumeration تانية جوا السيرفر   
 المفروض انت بنفسك تروح و تبدأ ت enum اما انا رح اقلك وين تروح مباشرة   
+
+
+### Internal Enumeration
+
   
 2.3 -  بعد شوية enumeration رحت  للملف هاد 
 
@@ -106,6 +119,10 @@ python3 bruteforce.py
 
 > **hugo:Password120**
 
+
+
+### Privileges Escalation using the cracked creds
+
   
 2.4 - صار فيك تعمل شي اسمه Privileges Escalation او تصعيد الصلاحيات   
 بسهولة رح تدخل باسم hugo 
@@ -116,6 +133,10 @@ su hugo
 
  و تحط كلمة سر و حاليا انت جوا باسم hugo و معك صلاحياته  
 و رح تلاقي ال user.txt كمان  
+
+
+### Privileges Escalation to R00T
+
   
 3 - حالبا تبدا تعمل priv esc مرة تانية و توصل لل root  
 اسهل طريقة و هي عبارة عن mis-configuration من قبل ال Server administrator او الشخص الي عم يشتغل باسم المستخدم هاد.  
